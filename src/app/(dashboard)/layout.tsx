@@ -1,3 +1,5 @@
+import { ClientLayout } from "@/components/client-layout"
+
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+  return <ClientLayout>{children}</ClientLayout>
 }
